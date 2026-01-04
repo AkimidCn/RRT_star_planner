@@ -10,7 +10,7 @@ cd ompl-1.7.0\
 mkdir -p build\
 cd build\
 cmake ..\
-make -j
+make -j 4
 
 二、安装
 catkin_make \
